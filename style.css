@@ -206,6 +206,14 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
+/* Contact */
+.contact-area {
+    background: var(--white);
+    border-radius: 30px;
+    margin: 40px 20px;
+    box-shadow: var(--shadow);
+}
+
 /* Footer */
 footer {
     background: white;
@@ -244,4 +252,45 @@ footer {
     .hero h1 {
         font-size: 2.5rem;
     }
+}
+
+/* Contact Section */
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.contact-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    background: none;
+    -webkit-text-fill-color: var(--text-dark);
+}
+
+.contact-map {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
 }
